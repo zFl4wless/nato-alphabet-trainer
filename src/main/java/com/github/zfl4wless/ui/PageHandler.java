@@ -8,14 +8,7 @@ public class PageHandler {
     private JPanel currentPage;
 
     public PageHandler() {
-        this.mainFrame = new JFrame();
-
-        this.mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.mainFrame.setTitle("NATO alphabet trainer");
-        this.mainFrame.pack();
-        this.mainFrame.setVisible(true);
-        this.mainFrame.setResizable(false);
-        this.mainFrame.setSize(500, 500);
+        this.mainFrame = new MainFrame();
     }
 
     public JPanel createPage() {
