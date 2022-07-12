@@ -15,7 +15,7 @@ public class Translator {
 
     public String translate(String name) {
         StringBuilder stringBuilder = new StringBuilder();
-        for (char ch : name.toCharArray()) {
+        for (char ch : name.toUpperCase().toCharArray()) {
             stringBuilder.append(this.getCodeWordBySymbol(ch)).append("\n");
         }
 
