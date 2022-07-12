@@ -15,7 +15,7 @@ public class Main {
         this.translator = new Translator();
         this.pageHandler = new PageHandler();
 
-        this.pageHandler.showPage(MenuPage.view());
+        this.pageHandler.showPage(MenuPage.render());
     }
 
     public static Main getApp() {

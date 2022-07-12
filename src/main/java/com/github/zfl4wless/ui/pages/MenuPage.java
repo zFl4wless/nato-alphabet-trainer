@@ -9,7 +9,7 @@ import javax.swing.*;
 public class MenuPage {
     private static final JPanel page = Main.getApp().getPageHandler().createPage();
 
-    public static JPanel view() {
+    public static JPanel render() {
         JButton startButton = new JButton("Start");
         startButton.addActionListener(new StartButtonActionListener());
         JButton quitButton = new JButton("Quit");
