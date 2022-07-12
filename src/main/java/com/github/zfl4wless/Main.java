@@ -1,7 +1,7 @@
 package com.github.zfl4wless;
 
 import com.github.zfl4wless.ui.PageHandler;
-import com.github.zfl4wless.ui.pages.MenuPage;
+import com.github.zfl4wless.ui.pages.menu.MenuPage;
 import com.github.zfl4wless.utils.Translator;
 
 public class Main {
