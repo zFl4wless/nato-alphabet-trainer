@@ -1,7 +1,7 @@
 package com.github.zfl4wless;
 
 import com.github.zfl4wless.ui.panels.PanelHandler;
-import com.github.zfl4wless.ui.panels.trainer.TrainerPage;
+import com.github.zfl4wless.ui.panels.trainer.TrainerPanel;
 import com.github.zfl4wless.utils.RandomWordGen;
 import com.github.zfl4wless.utils.Translator;
 
@@ -18,7 +18,7 @@ public class Main {
         this.panelHandler = new PanelHandler();
         this.randomWordGenerator = new RandomWordGen();
 
-        TrainerPage.render();
+        TrainerPanel.render();
     }
 
     public static Main getApp() {

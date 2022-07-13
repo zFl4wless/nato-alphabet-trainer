@@ -10,7 +10,7 @@ public class MainFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setTitle("nato alphabet trainer");
         pack();
-        setSize(200,200);
+        setExtendedState(JFrame.MAXIMIZED_BOTH);
         setVisible(true);
     }
 }

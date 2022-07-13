@@ -37,6 +37,7 @@ public class PanelHandler {
         }
 
         this.mainFrame.add(panel, BorderLayout.CENTER);
+        this.mainFrame.revalidate();
         this.currentPanel = panel;
     }
 
