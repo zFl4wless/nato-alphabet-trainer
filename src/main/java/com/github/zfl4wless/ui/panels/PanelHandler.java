@@ -1,4 +1,6 @@
-package com.github.zfl4wless.ui;
+package com.github.zfl4wless.ui.panels;
+
+import com.github.zfl4wless.ui.MainFrame;
 
 import javax.swing.*;
 import java.awt.*;
@@ -18,7 +20,7 @@ public class PanelHandler {
      */
     public JPanel createPanel() {
         JPanel panel = new JPanel();
-        panel.setBorder(BorderFactory.createEmptyBorder(60, 120, 60, 120));
+        panel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
         panel.setLayout(new GridLayout(0, 1));
 
         return panel;
