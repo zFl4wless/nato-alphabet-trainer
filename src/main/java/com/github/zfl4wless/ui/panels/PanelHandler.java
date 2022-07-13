@@ -1,4 +1,4 @@
-package com.github.zfl4wless.ui.panel;
+package com.github.zfl4wless.ui.panels;
 
 import com.github.zfl4wless.ui.MainFrame;
 
