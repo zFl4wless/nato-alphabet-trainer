@@ -7,20 +7,18 @@ import java.util.Objects;
 import java.util.Random;
 
 public class RandomWordGen {
-
-    private static JSONObject wordsObject;
     private static JSONArray wordsArray;
-    private static Random random = new Random();
+    private static final Random random = new Random();
 
     public RandomWordGen() {
-        wordsObject = new JSONObject(
+        JSONObject wordsObject = new JSONObject(
                 Objects.requireNonNull(FIleUtils.readResource("words.json"))
         );
         wordsArray = wordsObject.getJSONArray("nouns");
 
     }
 
-    public String getRandomString() {
+    public String getRandomWord() {
         return wordsArray.getString(random.nextInt(wordsArray.length() - 1));
     }
 }

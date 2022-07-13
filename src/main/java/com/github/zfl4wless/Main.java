@@ -1,18 +1,18 @@
 package com.github.zfl4wless;
 
-import com.github.zfl4wless.ui.PageHandler;
+import com.github.zfl4wless.ui.PanelHandler;
 import com.github.zfl4wless.utils.Translator;
 
 public class Main {
     public static Main app;
     private final Translator translator;
-    private final PageHandler pageHandler;
+    private final PanelHandler panelHandler;
 
     public Main() {
         app = this;
 
         this.translator = new Translator();
-        this.pageHandler = new PageHandler();
+        this.panelHandler = new PanelHandler();
     }
 
     public static Main getApp() {
@@ -21,8 +21,8 @@ public class Main {
     public Translator getTranslator() {
         return this.translator;
     }
-    public PageHandler getPageHandler() {
-        return this.pageHandler;
+    public PanelHandler getPanelHandler() {
+        return this.panelHandler;
     }
 
     public static void main(String[] args) {
