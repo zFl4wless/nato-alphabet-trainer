@@ -18,6 +18,11 @@ public class RandomWordGen {
 
     }
 
+    /**
+     * Gets a random word from the json array.
+     *
+     * @return The random word.
+     */
     public String getRandomWord() {
         return wordsArray.getString(random.nextInt(wordsArray.length() - 1));
     }

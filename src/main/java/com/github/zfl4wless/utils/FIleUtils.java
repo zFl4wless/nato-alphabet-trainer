@@ -11,6 +11,7 @@ public class FIleUtils {
 
     /**
      * Reads the content of a resource file from classpath.
+     *
      * @param name The name of the resource.
      * @return The content of the file..
      */
