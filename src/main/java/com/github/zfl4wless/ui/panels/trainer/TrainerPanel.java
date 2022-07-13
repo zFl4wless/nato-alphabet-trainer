@@ -6,7 +6,7 @@ import com.github.zfl4wless.ui.panels.trainer.components.SolutionButton;
 
 import javax.swing.*;
 
-public class TrainerPage {
+public class TrainerPanel {
     private static final JPanel panel = Main.getApp().getPanelHandler().createPanel();
 
     public static void render() {
