@@ -1,7 +1,6 @@
 package com.github.zfl4wless.ui;
 
 import javax.swing.*;
-import java.awt.*;
 
 /**
  * This class represents the main frame.
