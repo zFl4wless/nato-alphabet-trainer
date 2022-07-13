@@ -1,6 +1,6 @@
 package com.github.zfl4wless;
 
-import com.github.zfl4wless.ui.PanelHandler;
+import com.github.zfl4wless.ui.panel.PanelHandler;
 import com.github.zfl4wless.utils.Translator;
 
 public class Main {

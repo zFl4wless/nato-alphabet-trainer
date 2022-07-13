@@ -1,4 +1,6 @@
-package com.github.zfl4wless.ui;
+package com.github.zfl4wless.ui.panel;
+
+import com.github.zfl4wless.ui.MainFrame;
 
 import javax.swing.*;
 import java.awt.*;
