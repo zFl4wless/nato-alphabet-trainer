@@ -1,18 +1,17 @@
 package com.github.zfl4wless.ui;
 
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * This class represents the main frame.
  */
 public class MainFrame extends JFrame {
     public MainFrame() {
-        super("NATO alphabet trainer");
-
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setVisible(true);
+        setTitle("nato alphabet trainer");
         pack();
-        setSize(500, 500);
-        setResizable(false);
+        setSize(200,200);
+        setVisible(true);
     }
 }
